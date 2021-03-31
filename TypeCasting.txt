@@ -4,7 +4,7 @@ public class TypeCasting1 {
 
 	public static void main(String[] args) {
 		//long to Integer 
-	    long l = 200;
+	   	long l = 200;
 		int  i = (int)l;
 		System.out.println(i);
 		
