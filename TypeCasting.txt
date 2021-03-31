@@ -1,0 +1,30 @@
+package com.test.oops;
+
+public class TypeCasting1 {
+
+	public static void main(String[] args) {
+		//long to Integer 
+	    long l = 200;
+		int  i = (int)l;
+		System.out.println(i);
+		
+		//Integer to double
+		int no = 14;
+		double d = Double.valueOf(no);
+		System.out.println(d);
+		
+		//double to Integer
+		double dd = 14.30;
+		int dn = (int)dd;
+		System.out.println(dn);
+		
+		//boolean to String
+		Boolean  b1 = true;
+		Boolean  b2 = false;
+		String str = String.valueOf(b1);
+		String str1 = Boolean.toString(b2);
+		System.out.println(str);
+		System.out.println(str1);
+	}
+
+}
